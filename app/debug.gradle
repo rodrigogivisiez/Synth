@@ -3,6 +3,7 @@ apply plugin: "com.android.application"
 //model {
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
+// If windows add path like superpowered.dir="C\:\/Low-Latency-Android-Audio-iOS-Audio-Engine.git\/trunk\/Superpowered"
 def superpowered_sdk_path = properties.getProperty('superpowered.dir')
 
 android {
@@ -18,7 +19,7 @@ android {
         versionName = "1.0"
 
         ndk {
-            abiFilters 'armeabi-v7a'/*, 'arm64-v8a', 'x86', 'x86_64'*/
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
             // these platforms cover 99% percent of all Android devices
         }
 

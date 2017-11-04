@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.yossibarel.drummap">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -27,18 +28,19 @@
         </activity>
         <activity
             android:name=".EditChannelActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            tools:ignore="ExtraText">
             >
         </activity>
         <activity
             android:name=".MixerActivity"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".GridChannelActivity"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".SendFxActivity"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>
