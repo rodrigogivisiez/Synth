@@ -678,7 +678,7 @@ JNIEXPORT jint JNICALL
 Java_com_yossibarel_drummap_DrumMapJni_getSeqStepState(JNIEnv *env, jobject instance,
                                                        jint indexChannel) {
 
-    drumMap->getSeqStepState(indexChannel);
+    return drumMap->getSeqStepState(indexChannel);
 
 }
 
