@@ -21,7 +21,7 @@ bool YBSuperpoweredRoll::getEnable() {
 }
 
 void YBSuperpoweredRoll::setBeat(double beats) {
-    mSuperpoweredRoll->beats;
+    mSuperpoweredRoll->beats = (float) beats;
 }
 
 void YBSuperpoweredRoll::setWet(float wet) {

@@ -187,7 +187,7 @@ void MainGridControler::setDurationMs(double duration) {
 }
 
 double MainGridControler::getDurationMs() {
-    mDuration;
+    return mDuration;
 }
 
 bool MainGridControler::isPlay() {

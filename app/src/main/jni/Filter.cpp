@@ -60,9 +60,9 @@ void Filter::setType(SuperpoweredFilterType _filterType) {
         case SuperpoweredFilter_Parametric:
             filter->setShelfParametersAndType(mFrequency, mSlope, mDecibel,
                                               SuperpoweredFilter_Parametric);
-
             break;
-
+        default:
+            break;
     }
 }
 
@@ -81,7 +81,7 @@ void Filter::setFreq(float freq) {
         filter->setBandlimitedParameters(mFrequency, mOctave);
     __android_log_print(ANDROID_LOG_DEBUG, "filter", "freq %f res %f", mFrequency, mResonance);
 
-    //filter->setParametricParameters(mFrequency, mOctave, mDecibel);
+    filter->setParametricParameters(mFrequency, mOctave, mDecibel);
 }
 
 void Filter::setRes(float res) {
@@ -95,14 +95,14 @@ void Filter::setDecibal(float dec) {
 
         filter->setShelfParameters(mFrequency, mSlope, mDecibel);
 
-    //filter->setParametricParameters(mFrequency, mOctave, mDecibel);
+    filter->setParametricParameters(mFrequency, mOctave, mDecibel);
 }
 
 void Filter::setOctave(float octave) {
 
     mOctave = (octave) * 100.0;
     filter->setBandlimitedParameters(mFrequency, mOctave);
-    //filter->setParametricParameters(mFrequency, mOctave, mDecibel);
+    filter->setParametricParameters(mFrequency, mOctave, mDecibel);
 
 }
 
@@ -137,7 +137,7 @@ void Filter::enable(bool flag) {
 }
 
 bool Filter::process(float *input, float *output, unsigned int numberOfSamples) {
-    filter->process(input, output, numberOfSamples);
+    return filter->process(input, output, numberOfSamples);
 }
 
 void Filter::reset() {

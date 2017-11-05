@@ -211,7 +211,7 @@ void PianoRoll::setDurationMs(double duration) {
 }
 
 double PianoRoll::getDurationMs() {
-    mDuration;
+    return mDuration;
 }
 
 bool PianoRoll::isPlay() {
