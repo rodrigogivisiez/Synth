@@ -270,85 +270,85 @@
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
-
-        <views.Custom.VIewSeqPattern
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_marginRight="8dp"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
-
-        <views.Custom.VIewSeqPattern
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
-
-        <views.Custom.VIewSeqPattern
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
-
-        <views.Custom.VIewSeqPattern
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_weight="1" />
 
         <views.Custom.VIewSeqPattern
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></views.Custom.VIewSeqPattern>
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" />
+
+        <views.Custom.VIewSeqPattern
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <views.Custom.VIewSeqPattern
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <views.Custom.VIewSeqPattern
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <views.Custom.VIewSeqPattern
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
 
     </LinearLayout>

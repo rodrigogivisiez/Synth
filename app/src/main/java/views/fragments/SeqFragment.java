@@ -52,13 +52,13 @@ public class SeqFragment extends Fragment implements VIewSeqPattern.OnValueChang
         mIndexChannel = getArguments().getInt(Extras.EXTRA_CHANNEL_INDEX, -1);
         mDrumMap = DrumMapJni.getInstance();
         mFormaters = TextFormaterCreator.getCollection();
-        contentPatterns = (LinearLayout) view.findViewById(R.id.contentPatterns);
-        RadioGroup rbValueType = (RadioGroup) view.findViewById(R.id.gbValueType);
-        final ToggleButton btnEbableSeq = (ToggleButton) view.findViewById(R.id.btnEnableSeq);
-        final TextView tvRate = (TextView) view.findViewById(R.id.tvRate);
-        SeekBar sbRate = (SeekBar) view.findViewById(R.id.sbRate);
-        Button btnResetSeq = (Button) view.findViewById(R.id.btnResetSeq);
-        Button btnRandSeq = (Button) view.findViewById(R.id.btnRandSeq);
+        contentPatterns = view.findViewById(R.id.contentPatterns);
+        RadioGroup rbValueType = view.findViewById(R.id.gbValueType);
+        final ToggleButton btnEbableSeq = view.findViewById(R.id.btnEnableSeq);
+        final TextView tvRate = view.findViewById(R.id.tvRate);
+        SeekBar sbRate = view.findViewById(R.id.sbRate);
+        Button btnResetSeq = view.findViewById(R.id.btnResetSeq);
+        Button btnRandSeq = view.findViewById(R.id.btnRandSeq);
 
         mMaxIndex = mDrumMap.getSeqIndexEnable(mIndexChannel);
         mPatterns.clear();
@@ -221,7 +221,7 @@ public class SeqFragment extends Fragment implements VIewSeqPattern.OnValueChang
     }
 
     private void createControlStep(View view) {
-        RadioGroup rgSteps = (RadioGroup) view.findViewById(R.id.rgSteps);
+        RadioGroup rgSteps = view.findViewById(R.id.rgSteps);
         int currentStepState = mDrumMap.getSeqStepState(mIndexChannel);
         for (int i = 0; i < rgSteps.getChildCount(); i++) {
             RadioButton rb = (RadioButton) rgSteps.getChildAt(i);
@@ -244,7 +244,7 @@ public class SeqFragment extends Fragment implements VIewSeqPattern.OnValueChang
     }
 
     private void createSeqState(View view) {
-        RadioGroup rgSteps = (RadioGroup) view.findViewById(R.id.rgSeqState);
+        RadioGroup rgSteps = view.findViewById(R.id.rgSeqState);
         int currentState = mDrumMap.getSeqState(mIndexChannel);
         for (int i = 0; i < rgSteps.getChildCount(); i++) {
             RadioButton rb = (RadioButton) rgSteps.getChildAt(i);
